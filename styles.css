@@ -30,6 +30,7 @@ nav {
 .nav-links a {
     color: #fff;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .logo h2 {
@@ -95,7 +96,7 @@ nav {
     padding: 20px;
     margin: 10px;
     border-radius: 8px;
-    width: 45%;
+    width: 30%;
     text-align: left;
 }
 
@@ -114,6 +115,64 @@ nav {
     border-radius: 8px;
     width: 30%;
     text-align: left;
+}
+
+/* Project Header with GitHub Link */
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-link {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #009688;
+}
+
+/* Experience Section */
+.experience-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.experience-card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: left;
+}
+
+.experience-card h3 {
+    font-size: 1.3rem;
+}
+
+.experience-card ul {
+    list-style-type: disc;
+    margin: 10px 0 0 20px;
+}
+
+/* Education Section */
+.education-card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 /* Contact Section */
@@ -144,20 +203,20 @@ nav {
     background-color: #333;
 }
 
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #009688;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-footer a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
