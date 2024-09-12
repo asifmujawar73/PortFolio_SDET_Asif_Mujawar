@@ -220,3 +220,24 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.hero-content a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.cta-button, .hero-content a {
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover, .hero-content a:hover {
+    background-color: #333;
+    color: #fff;
+}
